@@ -67,7 +67,7 @@
 
 
           
-<a-box gps-entity-place="latitude: 40.0072600; longitude: -105.2698726;"color="#ab1392"; depth=".3" height=".3" width=".3"></a-box>
+<a-box gps-entity-place="latitude: 40.0072600; longitude: -105.2698726;""color="#ab1392"; depth=".3" height=".3" width=".3"></a-box>
 
 
 
@@ -77,7 +77,14 @@
                ></a-entity>
 
 
-	   
+	   	    	    <a-entity gltf-model="./assets/liarbeastwithskinmoving.gltf"
+		      rotation="0 0 0"
+              
+                  scale="1 1 1"
+                  gps-entity-place="latitude: 40.0072600; longitude: -105.2698726;" animation-mixer/
+              ></a-entity>
+
+
 
 
 	     <a-entity gltf-model="./assets/liarbeastwithskinmoving.gltf"
